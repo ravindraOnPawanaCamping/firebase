@@ -23,12 +23,12 @@ export class HomeComponent implements OnInit {
       this.id = data.productid;
       this.count1 = data.count2;
       this.count2 = data.count3;
-      console.log({"count2":this.count1,'count3':this.count2})
-      this.arr.push(this.count1);
-      this.arr.push(this.count2)
+      console.log({"count2":this.count1,'count3':this.count2});
+      this.arr.push(this.count1.string2['-LW7QDdMu9B1M0e96JKL'].split('       '));
+      this.arr.push(this.count2.string3['-LW7S9-qHELo_dMDn8eo'].split('       '));  
       console.log({"array":this.arr})
       //this.string = data.count2['string2'];
-      // this.array = this.string['-LNR-80Sy7q0QQuOGrd0'].split('       ');
+      //this.array = this.string['-LNR--LW7S9-qHELo_dMDn8eo'].split('       ');
     });
   }
 

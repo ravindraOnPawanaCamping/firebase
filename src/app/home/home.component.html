@@ -10,8 +10,8 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let i of arr" >
-      <td >{{i}}</td>
+    <tr *ngFor="let i of arr;let index =index" >
+      <td *ngFor="let item of i;let n=index" >{{item}}</td>
     </tr>
   </tbody>
 </table>
